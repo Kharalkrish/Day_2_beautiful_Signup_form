@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- the center tag in html is used to align the text into the center of the page -->
+    <!-- <center>how to learn html</center> --> 
+    <!-- signup body -->
+<div class="bg-indigo-600 py-6 flex flex-col justify-center relative overflow-hidden sm:py-12  | body-main" >
+    <span
+        class="border text-4xl text-yellow-800 px-6 pt-10 pb-8 bg-white w-1/2 max-w-md mx-auto rounded-t-md sm:px-10">Signup
+    </span>
+    <div class="border relative px-4 pt-7 pb-8 bg-white shadow-xl w-1/2 max-w-md mx-auto sm:px-10 rounded-b-md" style="mix-blend-mode: lighten;">
+        <form id="form" method="post" autocomplete="none">
+            <div class="alert alert-primary" style="display: none;" id="loginalert"></div>
+            <label for="" class="block">Full Name</label>
+            <input name="name" id="input_name" type="text"
+                class="h-10 mb-5 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-5 focus:outline-none focus:bg-white focus:border-gray-500"
+                placeholder="Full Name">
+            <label for="" class="block">Username</label>
+            <input name="name" id="input_username" type="text"
+                class="h-10 mb-5 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                placeholder="username">
+            <label for="" class="block">Email</label>
+            <input id="input_email" name="email" type="Email"
+                class="w-full h-10 mb-5 appearance-none block bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                placeholder="Email">
+                <label for="" class="block">Password</label>
+                <input id="input_password" name="password" type="password"
+                    class="w-full h-10 mb-5 appearance-none block  bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    placeholder="password">
+            <label for="" class="block">Confirm Password</label>
+            <input id="input_cpassword" name="cpassword" type="password"
+                class="h-10 mb-5 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                placeholder="Confirm Password">
+            <input id="signup" type="submit"
+                class="mt-5 bg-green-500 hover:bg-blue-700 shadow-xl text-white uppercase text-sm font-semibold px-14 py-3 rounded"
+                value="Submit" name="signup">
+        </form>
+        <div class="text-center text-gray-500 mt-10">
+            <p class="text-sm">Already have an account? <a href="login.php"
+                    class="text-blue-700 hover:underline">Login</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
